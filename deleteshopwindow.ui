@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deleteshopwindow</class>
+ <widget class="QDialog" name="deleteshopwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>651</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+      <property name="text">
+       <string>Название магазина</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="shopNameLineEdit">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+      <property name="text">
+       <string>Адрес магазина</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="shopAddressLineEdit">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="deleteShopButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>190</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+background-color: darkblue; 
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Удалить магазин</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+background-color: darkred; 
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Вернуться в главное меню</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

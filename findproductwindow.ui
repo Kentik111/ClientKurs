@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>findproductwindow</class>
+ <widget class="QDialog" name="findproductwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="findProductButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>160</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+background-color: darkblue; 
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Найти товар</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="makeFileButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>230</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+background-color: darkgreen; 
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Записать в файл</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>300</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+background-color: darkred; 
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Вернуться в главное меню</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>701</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+      <property name="text">
+       <string>Название товара</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="productLine">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+      <property name="text">
+       <string>Путь до файла</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="pathLine">
+      <property name="styleSheet">
+       <string notr="true">font-family: Arial, sans-serif;
+font-size: 20px;
+color: darkblue;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
